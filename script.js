@@ -14,4 +14,8 @@ document.getElementById('form').addEventListener('submit', (event)=>{
         valid =false;
     }
 
+    if (valid){
+        alert('The form has been completed. \n We will proceed with the sending');
+    }
+
 })
